@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header{
+    background-color: peachpuff;
+    height: 125px;
+}
+
+.main{
+    background-color: lightblue;
+    height: 575px;
+    display: flex;
+
+}
+
+.footer{
+    background-color: peachpuff;
+    height: 125px;
+}
+
+.aside{
+    background-color: palevioletred;
+    width: 20%;
+    margin: 2em;
+}
+
+.article{
+    background-color: palevioletred;
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin: 2em;
+}
+
+.bingkai{
+    display: flex;
+    justify-content: center;
+}
+
+.bingkai img{
+    margin: 1em
+}
+
+h3{
+    text-align: center;
+}
